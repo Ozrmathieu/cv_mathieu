@@ -1,0 +1,41 @@
+header
+{
+    display: none;
+}
+
+h2{
+    font-size: 1.5em;
+    border-bottom: solid 2px black;
+    margin-left: 0px;
+}
+.wrapper p
+{
+    font-size: 1em;
+}
+
+.video_ski
+{
+    display: none;
+}
+
+.ski p{
+    margin-right: 15em;
+    margin-left: 3em;
+}
+
+.ski picture{
+    position: absolute;
+    right: 1em;
+    top: 15.5em;
+}
+
+.basket p{
+    margin-left: 15em;
+    margin-right: 3em;
+}
+
+.basket picture{
+    position: absolute;
+    left: 2em;
+    top: 34em;
+}

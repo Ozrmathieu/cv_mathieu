@@ -1,0 +1,36 @@
+.first_header{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+ul{
+	margin-left: 2em;
+}
+.wrapper{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+aside {
+	flex:2 400px;
+	margin-top: 6em;
+	margin-right: 1.5em;
+}
+
+main {
+	flex: 3 600px;
+	margin-top: 4em;
+}
+
+h1 {
+	display: flex;
+	align-items: center;
+	margin-left: 15%;
+}
+
+.header_menu .menu {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+

@@ -1,0 +1,60 @@
+body
+{
+	font-family: Arial,sans-serif ;
+	font-size: 1em;
+}
+
+h1{
+  font-size: 4em;
+  text-transform:capitalize ;
+  margin-top: 0.5em;
+}
+
+h2 , h3
+{
+	font-weight: bold;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	font-size: 2em;
+}
+
+h4{
+  font-weight: normal;
+  font-size: 1.5em;
+}
+
+.personal 
+{
+	text-align: center;
+	display: grid;
+}
+
+.personal picture
+{
+	margin-bottom: 2em;
+}
+
+.personal p{
+	padding-top: 5px;
+}
+.personal h2 {
+	text-align: center;
+}
+
+p{
+	margin-right: 0.5em;
+}
+
+*, *::before, *::after
+
+{
+
+	box-sizing: border-box;
+
+	margin: 0;
+
+	padding: 0;
+
+}
+
+

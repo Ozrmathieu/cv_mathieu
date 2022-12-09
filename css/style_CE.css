@@ -1,0 +1,119 @@
+/********Entête*********/
+.first_header{
+    background-color: rgb(8, 75, 131);
+    width: 100%;
+    border-bottom: solid 6px rgb(187, 230, 228);
+   display: flex;
+   box-sizing: border-box;
+}
+
+
+
+/*******drapeau******/
+#flag_on img{
+    border:2px solid rgb(187, 230, 228);
+    padding: 0.4em;
+}
+
+
+.first_header .menu_flag .lang .flag{
+    display: flex;
+    padding: 0.5em;
+    list-style: none;
+}
+.menu_flag {
+    position: absolute;
+    top: 0.5em;
+    right: 0.2em;
+    display: flex;
+}
+  
+
+
+/********Menu********/
+#ON{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+
+
+.first_header .header_menu .menu .menu_type a
+{
+    padding: 1em;
+	display: flex;
+    text-decoration: none;
+    color: rgb(33, 36, 39);
+    font-size: 2em;
+    text-align: center;
+    color: rgb(187, 230, 228);
+}
+.first_header .header_menu .menu .menu_type{
+    list-style: none;
+    display: flex;
+}
+
+.header_menu .menu {
+    display: inline-flex;
+    margin-top: 1.5em;
+    margin-left: 2em;
+}
+.menu .menu_type{
+    margin-right: 3em;
+}
+
+/**********Main**********/
+
+.wrapper{
+    margin-left: 2em;
+    padding-bottom: 2em;
+}
+
+h2{
+    border-bottom: solid 2px rgb(8, 75, 131);
+    margin-left: 0px;
+}
+
+.ski article p
+{
+    border: solid 2px rgb(8, 75, 131);
+    background-color: rgb(187, 230, 228);
+    border-radius: 1em;
+    margin-right: 1.5em;
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+    margin-top: 1.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    width: fit-content;
+}
+.basket article p
+{
+    border: solid 2px rgb(8, 75, 131);
+    background-color: rgb(187, 230, 228);
+    border-radius: 1em;
+    margin-right: 1.5em;
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+    margin-top: 1.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    width: fit-content;
+}
+
+.guitare article p
+{
+    border: solid 2px rgb(8, 75, 131);
+    background-color: rgb(187, 230, 228);
+    border-radius: 1em;
+    margin-right: 1.5em;
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+    margin-top: 1.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    width: fit-content;
+}
